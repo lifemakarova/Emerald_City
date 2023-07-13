@@ -6,3 +6,80 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* Header styles */
+.header {
+    width: 1440px;
+    max-width: 100%;
+    height: 90px;
+    background-color: rgb(170 217 219);
+
+    .header__container {
+        width: 1280px;
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__logo {
+        width: 90px;
+        height: 60px;
+    }
+
+    .logo--image {
+        width: 100%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar__item {
+        list-style: none;
+        margin-right: 25px;
+    }
+
+    .navbar__item:last-child {
+        margin-right: 0;
+    }
+
+    .navbar__link {
+        text-decoration: none;
+        color: rgb(0 42 51);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .navbar__link:hover {
+        cursor: pointer;
+    }
+    .navbar__link:focus {
+        outline: 3px solid rgb(0 42 51);
+    }
+}
+
+
+/* Projects styles */
+
+
+/* Activities styles */
+
+
+/* Donation styles */
+
+
+/* Production styles */
+
+
+/* Friends-partners styles */
+
+
+/* Footer styles */
